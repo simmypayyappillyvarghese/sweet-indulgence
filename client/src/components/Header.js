@@ -6,15 +6,13 @@ export default function Header(){
 
 return (
 
-<div>
+<div  className="header">
     <Navbar className="navbar">
+        <Link to="/order" className="order-button">Order Online</Link>
         <div className="nav-container">
         <Link to="/cakes">Our Cakes</Link>
         <Link to="/"  className="logo"><h1>Sweet Indulgence</h1></Link>
         <Link to="/about">About Us</Link>
-        </div>
-        <div className="order-button">
-        <Link to="/order">Order</Link>
         </div>
     </Navbar>
 </div>
