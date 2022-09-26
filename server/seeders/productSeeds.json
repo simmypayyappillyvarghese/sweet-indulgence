@@ -1,41 +1,41 @@
 [
 {
-    "productName":"Pink frosted chocolate cake",
+    "name":"Pink frosted chocolate cake",
     "price":45.00,
     "description":"Pink frosted chocolate cake. Perfectly elegant for a birthday or any special event.",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662790772/sweet-indulgence/cake-image_fp1ldg.jpg",
     "stockQuantity":3
 },
 {
-    "productName":"Caramel Butter Pound Cake",
+    "name":"Caramel Butter Pound Cake",
     "price":30.00,
     "description":"Caramel Butter Pound Cake,for caramel lovers",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662791084/sweet-indulgence/product-2_sjbibb.jpg",
     "stockQuantity":5
 },
 {
-    "productName":"Pumpkin Flavoured Cake",
+    "name":"Pumpkin Flavoured Cake",
     "price":40.00,
     "description":"Pumpkin Flavoured Cake,Dont forget order this cake for haloween party",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662792122/sweet-indulgence/product-4_yxorhr.jpg",
     "stockQuantity":3
 },
 {
-    "productName":"Vanilla Chocolate Cake",
+    "name":"Vanilla Chocolate Cake",
     "price":60.00,
     "description":"Vanilla Chocallate Cake for Vanolla Lovers",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662792122/sweet-indulgence/product-3_mjs7fx.jpg",
     "stockQuantity":4
 },
 {
-    "productName":"Vegan Strawberry Cake",
+    "name":"Vegan Strawberry Cake",
     "price":45.00,
     "description":"Vegan Strawberry Cake for our vegan Customers",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662792121/sweet-indulgence/vegan_strawberry_cake_oxuxxt.jpg",
     "stockQuantity":2
 },
 {
-    "productName":"Blueberry Flavoured Cake",
+    "name":"Blueberry Flavoured Cake",
     "price":45.00,
     "description":"Blueberry flavoured Cake with fresh blueberries",
     "image":"https://res.cloudinary.com/dw5h7wsq9/image/upload/v1662792121/sweet-indulgence/product-5_xo9qto.jpg",

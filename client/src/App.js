@@ -7,11 +7,25 @@ import Order from "./pages/Order"
 import Home from "./pages/Home"
 import About from "./pages/About"
 import Hero from "./components/Hero"
+import {ApolloClient,ApolloProvider,createHttpLink,InMemoryCache} from "@apollo/client"
 
 function App() {
 
+  // Construct our main GraphQL API endpoint
+const httpLink = createHttpLink({
+  uri: "http://localhost:3001/graphql",
+});
+
+const client=new ApolloClient(
+
+  {
+    link:httpLink,
+    cache: new InMemoryCache(),
+  }
+);
 
   return (
+    <ApolloProvider client={client}>
     <Router>
       <Routes>
         <Route path="/" element={<Hero/>}/>
@@ -24,7 +38,7 @@ function App() {
       </Routes> 
      <Footer/>
     </Router>
-
+    </ApolloProvider>
   );
 }
 

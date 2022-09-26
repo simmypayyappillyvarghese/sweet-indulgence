@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import { Button } from "bootstrap";
+import { Icon } from "@iconify/react";
 
 export default function Header(){
 

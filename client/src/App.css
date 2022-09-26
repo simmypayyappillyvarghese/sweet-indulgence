@@ -128,3 +128,29 @@ body{
   filter:opacity(0.8);
   border-radius: 10px;
 }
+
+/*Product Details*/
+
+.order-product-details{
+
+  background-color:#daf4ee ;
+  border-radius: 1%;
+}
+
+.product-image{
+
+  border-radius: 50%;
+  border: 3px solid #2d2315;
+}
+
+.addToBasket-button{
+
+  background-color: #EBC999 !important;
+}
+
+.calendar{
+
+  border-radius: 6% !important;
+  padding: 1.5rem!important;
+  background-color: #c3f1e6 !important;
+}
