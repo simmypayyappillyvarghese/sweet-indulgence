@@ -17,7 +17,7 @@ export default function Order(){
 const { loading,error,data } = useQuery(QUERY_PRODUCTS);
 const products = data?.getProducts||[];
 
-  console.log(products);
+
 
 
     function addToBasket(event){

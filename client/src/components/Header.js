@@ -13,7 +13,7 @@ return (
         <div className="nav-container">
         <Link to="/cakes">Our Cakes</Link>
         <Link to="/"  className="logo"><h1>Sweet Indulgence</h1></Link>
-        <Link to="/about">About Us</Link>
+        <Link to="/about">About Us</Link>   
         </div>
     </Navbar>
 </div>

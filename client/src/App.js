@@ -1,13 +1,14 @@
 import './App.css';
 
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
-import Header from "./components/Header"
-import Footer from "./components/Footer"
-import Order from "./pages/Order"
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Hero from "./components/Hero"
-import {ApolloClient,ApolloProvider,createHttpLink,InMemoryCache} from "@apollo/client"
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Order from "./pages/Order";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Hero from "./components/Hero";
+import Cakes from "./pages/Cakes";
+import {ApolloClient,ApolloProvider,createHttpLink,InMemoryCache} from "@apollo/client";
 
 function App() {
 
@@ -35,6 +36,7 @@ const client=new ApolloClient(
       <Routes>
       <Route path="/order" element={<Order/>}/>
       <Route path="/" element={<Home/>}/>
+      <Route path="/cakes" element={<Cakes/>}/>
       </Routes> 
      <Footer/>
     </Router>

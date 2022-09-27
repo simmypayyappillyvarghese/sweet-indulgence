@@ -96,21 +96,132 @@ body{
 .header{
   position:sticky !important;
   top:0 !important;
+  
+}
+
+.box {
+  --mask:
+    radial-gradient(56.60px at 50% 78.00px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(56.60px at 50% -48px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+/* Cakes Page Styling */
+
+.cakes-container{
+
+ padding: 0 !important;
+
+}
+
+.products-header{
+
+  text-align: center;
+  font-weight: 22px;
+
+}
+
+.products-heading{
+
+  line-height: 2rem;
+}
+
+
+.products-details{
+
+  background-color: #EBC999;
+  margin:0 !important;
+  padding: 0 !important;
+  
+}
+
+
+.product-info{
+
+ position: relative;
+}
+
+.cake-image{
+  border-radius: 50%;
+}
+
+.cake-description{
+
+  display:none;
+  z-index: 10;
+  position: absolute;
+  top:40%;
+  left:4%;
+  width:200px;
+  font-size: 14px;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.cake-background{
+  display: none;
+  width:220px;
+  height:220px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  top:0;
+
+}
+
+.fa-angle-double-right{
+
+  font-size: 20px;
+}
+
+.cake-making{
+
+  background-color: #c3f1e6;
+}
+
+.cake-making-content{
+
+  line-height: 2rem;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.fa-arrow-right{
+
+  font-size: 1.7rem;
 }
 
 /*Footer Styling*/
 .footer{
 
   background-color: #F2E9EB;
-  height:15vh;
+  height:45vh;
   margin-top:auto;
+}
+
+.copyright{
+
+  margin-bottom: -10px;
+}
+
+.btn-info{
+  background-color: #c3f1e6 !important;
 }
 
 /*Order Page Styling*/
 
 .order-container{
   background-color: #E7F7F3 !important;
+  /* height:80vh; */
+  margin-bottom: -80px;
+}
 
+.order-container > h1,h2,h4,h6{
+
+  font-style: italic;
 }
 
 .order-container > p{
