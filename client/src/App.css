@@ -139,6 +139,42 @@ body{
 .product-info{
 
  position: relative;
+ animation: rotate 2s;
+}
+
+@keyframes rotate {
+
+  0%{
+      transform: rotate(10deg);
+  }
+
+
+  10%{
+    transform: rotate(30deg);
+  }
+
+
+
+  20%{
+    transform: rotate(60deg);
+  }
+
+
+  60%{
+
+    transform: rotate(100deg);
+  }
+
+
+  80%{
+    transform: rotate(180deg);
+  }
+
+
+  100%{
+    transform: rotate(360deg);
+  }
+  
 }
 
 .cake-image{
@@ -171,6 +207,12 @@ body{
   top:0;
 
 }
+
+.cake-background,.cake-description{
+
+  transition: position 1000s  linear!important;
+}
+
 
 .fa-angle-double-right{
 
